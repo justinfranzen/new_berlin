@@ -1,0 +1,1720 @@
+html, body {
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 90px;
+    padding: 10px 0 15px 0;
+    display: block;
+    position: fixed;
+    z-index: 50;
+    padding-top: 10px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: beige;
+    box-shadow: 0px 3px 10px grey;
+}
+
+#mobile-nav, #myNav {
+    display: none;
+}
+
+#logo {
+    float: left;
+    margin-left: 3%;
+    margin-top: 5px;
+    width: 105px;
+}
+
+#main-nav-bar {
+    float: right;
+    margin-right: 3%;
+    margin-top: 25px;
+}
+
+.main-nav {
+    padding-left: 0;
+}
+
+.main-nav li {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#links {
+    text-align: center;
+    display: inline-flex;
+}
+
+.main-nav li a {
+    color: black;   
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background: #e10e18;
+    color: white;
+    transition-duration: .2s;
+}
+
+.main-nav li a:not(:hover) {
+    color: black;
+    transition-duration: .2s;
+}
+
+.title-img {
+    display: none;
+}
+
+.main-h1 {
+    display: none;
+}
+
+.parallax-h1 {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 260px;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+#bowling {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+#main {
+    background: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1px;
+    font-family: 'Lato', 'open sans';
+    font-size: 16px;
+}
+
+.content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: 'Lato', 'open sans';
+    font-size: 16px;
+    margin-top: 65px;
+}
+
+.content2 {
+    width: 90%;
+    margin-bottom: 75px;
+}
+
+.skdslider {
+    margin-top: -10px;
+}
+
+#new-berlin {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#blurb-section {
+    background: rgb(119,136,153);
+    padding-bottom: 100px;
+    margin-bottom: -1px;
+    padding-top: 100px;
+}
+
+.blurb-section {
+    display: block;
+    background: lightblue;
+    width: 270px;
+    padding: 30px;
+    margin: 20px auto;
+    height: 625px;
+    max-width: 100%;
+}
+
+.blurb-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.blurb-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.blurb-info {
+    margin-left: -20px;
+}
+
+.more-info {
+    margin-bottom: 35px;
+    position: absolute;
+    bottom: 0;
+}
+
+#gallery-link:hover {
+    text-decoration: none;
+}
+
+.more-info a {
+    color: darkslateblue;
+}
+
+.more-info a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+iframe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#banquet-menu {
+    text-align: left;
+}
+
+#banquet-menu a:hover {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 28px !important;
+}
+
+#phone-number {
+    text-align: center;
+}
+
+#phone-number:hover {
+    text-decoration: none;
+}
+
+.bowling {
+    background: lightblue;
+}
+
+.bowling2 {
+    background: rgb(119,136,153);
+    color: white;
+}
+
+.bowling, .bowling2 {
+    padding: 50px 30px; 
+}
+
+#birthday-party {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bowling-info {
+    text-align: center;
+    line-height: 2;
+}
+
+.bowling-titles {
+    text-align: center;
+}
+
+.league-info, .league-info2 {
+    text-align: center;
+}
+
+.league-info {
+    color: yellow;
+}
+
+.league-info2 {
+    color: lightgreen;
+}
+
+.day {
+    text-align: center;
+}
+
+.day a {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.join-league a {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.join-league a:hover {
+    color: #337ab7;
+}
+
+.day a:hover {
+    color: lightblue;
+}
+
+.green {
+    color: lightgreen;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.join-league {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+.hours, .daily-specials, .menu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.hours {
+    padding: 50px 30px !important;
+    margin-top: -65px;
+}
+
+.hours, .menu {
+    background: lightblue;
+    padding-bottom: 80px;
+}
+
+.menu {
+    margin-bottom: -21px;
+}
+
+.daily-specials {
+    text-align: center;
+    background: rgb(119,136,153);
+    color: white;
+}
+
+.ale-house {
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.specials-day {
+    text-decoration: underline;
+}
+
+#menu {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#karaoke-img {
+    display: block;
+    margin: 30px auto;
+} 
+
+#myForm {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(119,136,153, .3);
+}
+
+input {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid black;
+    height: 38px !important;
+    border-radius: 3px;
+}
+
+textarea {
+    border: 1px solid black;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-family: Arial;
+}
+
+#submit {
+    width: 100px;
+    height: 45px !important;
+    border: 1px solid rgb(119,136,153);
+    padding: 0;
+    background: rgb(119,136,153);
+    color: white;
+}
+
+#contact-contact-info {
+    line-height: 2;
+}
+
+#banquet-hall {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banquet-hall-img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#contact-section {
+    text-align: center;
+    background: lightblue;
+    font-size: 18px;
+    padding: 75px 20px;
+}
+
+    .thankyou {
+        text-align: center;
+        margin: 150px 28px;
+    }
+    
+    #thankyou {
+        font-size: 24px;
+    }
+    
+    #redirect {
+        font-size: 20px;
+        color: black;
+        background: lightblue;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+#redirect:hover {
+    text-decoration: none;
+}
+
+#footer {
+    background: beige;
+    height: 200px;
+}
+
+#footer-contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+#facebook {
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.vertical-image {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+#contact-info {
+    width: auto;
+    float: right;
+    margin-top: -40px;
+    margin-right: 25%;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+}
+
+.fa.fa-facebook-square {
+        font-size: 40px;
+        color: gray;
+    }
+
+.fa.fa-facebook-square:hover {
+        color: #3B5998;
+        transition: .5s;
+}
+
+.fa.fa-facebook-square:not(:hover) {
+        color: gray;
+        transition: .5s;
+}
+
+.fa.fa-foursquare {
+    font-size: 35px;
+    color: gray;
+    margin-left: 15px;
+}
+
+.fa.fa-foursquare:hover {
+    color: #f94877;
+    transition: .5s;
+}
+
+.fa.fa-foursquare:not(:hover) {
+        color: gray;
+        transition: .5s;
+}
+
+.glyphicon {
+        margin-right: 5px;
+        color: black;
+    }
+
+.email, .phone {
+    color: black;
+}
+
+.email:hover, .phone:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.email-footer, .phone-footer {
+    color: black;
+}
+
+.footer-email, .footer-phone {
+    color: black;
+}
+
+.footer-email:hover, .footer-phone:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+/*-----------------------------------------*/
+/*--------PHOTOGALLERY--------------------*/
+/*-----------------------------------------*/
+
+.gallery {
+    margin-bottom: -15px;
+}
+
+.vertical-image, .horizontal-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.vertical-image {
+    width: 45% !important;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  max-width: 90%;
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+  color: white !important;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1.2 !important;
+    margin-right: 30px !important;
+    margin-top: -70px !important;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+    color: red;
+    text-decoration: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: red;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+    width: 200px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.hover-shadow.thumbnail {
+    width: 250px;
+    max-width: 100%;
+}
+
+/*------------------------------------*/
+
+
+
+@media only screen and (min-width: 1076px) and (max-width: 1200px) {
+    
+    #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        margin-top: -5px;
+        font-size: 50px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 20px !important;
+        right: 55px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* beige w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+    
+    #main-nav-bar {
+        display: none;
+        }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+    
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 24%;
+    font-size: 100px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+    
+    .banquet-hall-img {
+        display: block;
+        width: 400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
+    
+/*--------Mobile Dropdown----------*/
+    
+     #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        margin-top: -5px;
+        font-size: 50px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 20px !important;
+        right: 55px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+    
+/*-------Main Navigation----------*/
+    
+      #main-nav-bar {
+        display: none;
+        }
+        
+    #thankyou {
+        margin: 150px 28px;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    #facebook {
+        margin-left: 0;
+        margin-top: 35px;
+    }  
+    
+    #contact-info {
+        margin-right: 0;
+    }
+    
+    .banquet-hall-img {
+        display: block;
+        width: 400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .gallery {
+        margin-bottom: -15px;
+    }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+    
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 24%;
+    font-size: 100px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+    
+    
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    
+     #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        margin-top: -5px;
+        font-size: 50px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 20px !important;
+        right: 55px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+     #main-nav-bar {
+        display: none;
+        }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 28%;
+    font-size: 75px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+    
+#blurb-section {
+    background: rgb(119,136,153);
+    padding-bottom: 75px;
+    margin-bottom: -1px;
+    padding-top: 75px;
+    margin-top: -20px;
+}
+
+    .blurb-section {
+        margin: 0 auto;
+    }
+    
+    .two, .three {
+        margin-top: 70px;
+    }
+    
+    #banquet-hall {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .banquet-hall-img {
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .hours, .daily-specials, .menu {
+        height: auto;
+    }
+    
+    #karaoke, #birthday {
+        margin-top: 50px;
+    }
+    
+    .gallery {
+        margin-bottom: -25px;
+    }
+    
+    #footer {
+        background: beige;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding-top: 1px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        margin-left: 0;
+        margin-top: 35px;
+    }  
+    
+    #contact-info {
+        margin-right: 0;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: -50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Lato;
+        font-size: 16px;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+     #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        margin-top: -5px;
+        font-size: 50px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 20px !important;
+        right: 55px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+    
+    #main-nav-bar {
+        display: none;
+        }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+    
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 75px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+    
+#blurb-section {
+    background: rgb(119,136,153);
+    padding-bottom: 75px;
+    margin-bottom: -1px;
+    padding-top: 75px;
+    margin-top: -20px;
+}
+
+    .blurb-section {
+        margin: 0 auto;
+    }
+    
+    .content {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    #new-berlin {
+        width: 400px;
+        display: block;
+        margin: 30px auto;
+        max-width: 100%;
+    }
+    
+    #bowling {
+        margin-top: 55px;
+    }
+    
+    .hours {
+        margin-top: -10px;
+    }
+    
+     #karaoke, #birthday {
+        margin-top: 50px;
+    }
+    
+    #contact-section {
+        margin-bottom: 60px;
+    }
+    
+    #banquet-hall {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .banquet-hall-img {
+        display: block;
+        width: 400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .two, .three {
+        margin-top: 70px;
+    }
+    
+    .hours, .daily-specials, .menu {
+        height: auto;
+    }
+    
+    .gallery {
+        margin-bottom: -40px;
+    }
+    
+    .join-league {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    #footer {
+        background: beige;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding-top: 1px; 
+        line-height: 2;
+    }
+    
+    #facebook {
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+        font-family: Lato;
+        font-size: 16px;
+    }
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+   #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        margin-top: -5px;
+        font-size: 50px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 0px !important;
+        right: 20px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+    
+   #main-nav-bar {
+        display: none;
+        }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+    
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 36%;
+    font-size: 50px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+    
+    .content2 {
+        padding-top: 0;
+    }
+    
+    #new-berlin {
+        width: 400px;
+        display: block;
+        margin: 30px auto 20px auto;
+        max-width: 100%;
+    }
+    
+#bowling {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+    .join-league {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+.hours {
+    margin-top: -10px;
+}
+    
+.beer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+     #karaoke, #birthday {
+        margin-top: 50px;
+    }
+    
+    #banquet-hall {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .banquet-hall-img {
+        display: block;
+        width: 400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .two, .three {
+        margin-top: 60px;
+    }
+    
+    .hours, .daily-specials, .menu {
+        height: auto;
+    }
+    
+    .gallery {
+        margin-bottom: -40px;
+    }
+    
+    #footer {
+        background: beige;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding-top: 1px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        font-family: Lato;
+        font-size: 16px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+    
+   #mobile-nav {
+        display: block !important;
+        float: right;
+        margin-right: 15px;
+        margin-top: 5px;
+        font-size: 40px !important;
+    }
+    
+    #myNav {
+        display: block;
+    }
+    
+    .overlay a {font-size: 24px !important; padding: 5px !important;}
+    .overlay .closebtn {
+        font-size: 60px !important;
+        top: 0px !important;
+        right: 20px !important;
+    }
+    
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(245,245,220,.95); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #e10e18;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+    
+     #main-nav-bar {
+        display: none;
+        }
+    
+.title-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 90px;
+}
+
+.main-h1 {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 40%;
+    font-size: 50px;
+    font-weight: 600;
+}
+    
+.parallax, .parallax2, .parallax3, .parallax4 {
+      display: none;  
+}
+
+    #main {
+        margin-top: 60px !important;
+    }
+    
+#bowling {
+    margin-top: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+    #blurb-section {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        margin-top: -10px;
+    }
+    
+    .blurb-section {
+        margin: 0 auto;
+    }
+    
+    .content {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    
+    .content2 {
+        width: 85%;
+        margin-top: 10px;
+        padding-top: 1px;
+    }
+    
+    #new-berlin {
+        width: 400px;
+        display: block;
+        margin: 30px auto 0 auto;
+        max-width: 100%;
+    }
+    
+    .join-league {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .hours {
+        margin-top: -75px;
+    }
+    
+    .menu {
+        padding-bottom: 50px;
+    }
+    
+ #karaoke, #birthday {
+        margin-top: 50px;
+    }
+    
+.beer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+#contact-section {
+    margin-bottom: 60px;
+    margin-top: -60px;
+}
+    
+    #banquet-hall {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .banquet-hall-img {
+        display: block;
+        width: 400px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    .two, .three {
+        margin-top: 60px;
+    }
+
+    .hours, .daily-specials, .menu {
+        height: auto;
+    }
+    
+    .gallery {
+        margin-bottom: -50px;
+    }
+    
+    #myForm {
+        margin-bottom: 50px;
+    }
+    
+    #footer {
+        background: beige;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-top: 1px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+        font-family: Lato;
+        font-size: 16px;
+    }
+
+    
+}
+
+
+
