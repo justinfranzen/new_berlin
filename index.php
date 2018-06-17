@@ -113,7 +113,9 @@ body{ margin:0; padding:0;}
     
     <div id="blurb-section">
         
-            <div class="row">
+        <h1 id="entertainment">Entertainment</h1>
+        
+            <div class="row entertainment">
         
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     

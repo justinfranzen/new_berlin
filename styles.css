@@ -134,6 +134,19 @@ html, body {
     max-width: 100%;
 }
 
+#entertainment {
+    margin-top: -10px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+
+.entertainment {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #blurb-section {
     background: rgb(119,136,153);
     padding-bottom: 100px;
@@ -142,9 +155,8 @@ html, body {
 }
 
 .blurb-section {
-    display: block;
     background: lightblue;
-    width: 270px;
+    width: 320px;
     padding: 30px;
     margin: 20px auto;
     height: 625px;
@@ -1186,6 +1198,10 @@ img.hover-shadow {
 .parallax, .parallax2, .parallax3, .parallax4 {
       display: none;  
 }
+   
+#entertainment {
+     font-size: 50px;
+    }
     
 #blurb-section {
     background: rgb(119,136,153);
@@ -1592,6 +1608,10 @@ img.hover-shadow {
     padding-left: 20px;
     padding-right: 20px;
 }
+    
+    #entertainment {
+        font-size: 40px;
+    }
     
     #blurb-section {
         padding-top: 65px;
